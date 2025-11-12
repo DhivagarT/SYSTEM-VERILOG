@@ -4,6 +4,6 @@ module single_D_assign;
   
   initial begin
     foreach(a[i])
-      $display("Output is: a=%0d",a[i]);
+      $display("Output is: a=%0d",i,a[i]);
   end
 endmodule
