@@ -1,8 +1,8 @@
 // packed array
 module paked_array;
-  logic a=1;                          //1D packed
-  logic [1:0]b ='{1,2};               //2D packed
-  logic [1:0][1:0]c='{'{1,2},'{1,2}}; //3D packed
+  logic a=1;                          // packed
+  logic [1:0]b ='{1,2};               //1D packed
+  logic [1:0][1:0]c='{'{1,2},'{1,2}}; //2D packed
   
   initial begin
     
