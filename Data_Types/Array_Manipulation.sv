@@ -71,3 +71,50 @@ module array_manipulation_types;
   end
     
 endmodule
+
+/*
+# KERNEL: a[0]=1
+# KERNEL: a[1]=2
+# KERNEL: a[2]=3
+# KERNEL: a[3]=4
+# KERNEL: a[4]=5
+# KERNEL: first 1
+# KERNEL: b[0]=10
+# KERNEL: b[1]=20
+# KERNEL: b[2]=30
+# KERNEL: b[3]=40
+# KERNEL: b[4]=50
+# KERNEL: b[5]=60
+# KERNEL: b[6]=70
+# KERNEL: size of b 7
+# KERNEL: size of b 0
+# KERNEL: c[0]=1
+# KERNEL: c[1]=2
+# KERNEL: c[4]=6
+# KERNEL: c[7]=2
+# KERNEL: first value 0
+# KERNEL: last value 7
+# KERNEL: next value for 4 is 7
+# KERNEL: previous value for 4 is 1
+# KERNEL: c[0]=1
+# KERNEL: c[1]=2
+# KERNEL: c[4]=6
+# KERNEL: number of elements=3
+# KERNEL: size od d          4
+# KERNEL: d[0]=21
+# KERNEL: d[1]=31
+# KERNEL: d[2]=41
+# KERNEL: d[3]=51
+# KERNEL:         
+# KERNEL: d[0]=12
+# KERNEL: d[1]=21
+# KERNEL: d[2]=31
+# KERNEL: d[3]=41
+# KERNEL: d[4]=51
+# KERNEL:         
+# KERNEL: d[0]=12
+# KERNEL: d[1]=21
+# KERNEL: d[2]=31
+# KERNEL: d[3]=41
+# KERNEL: Size of d =4
+*/
