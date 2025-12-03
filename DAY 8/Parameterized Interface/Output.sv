@@ -1,0 +1,13 @@
+# KERNEL: @=0 clk=0 rst=1 count=0
+# KERNEL: @=2000 clk=1 rst=1 count=0
+# KERNEL: @=3000 clk=1 rst=0 count=0
+# KERNEL: @=4000 clk=0 rst=0 count=0
+# KERNEL: @=6000 clk=1 rst=0 count=1
+# KERNEL: @=8000 clk=0 rst=0 count=1
+# KERNEL: @=10000 clk=1 rst=0 count=2
+# KERNEL: @=12000 clk=0 rst=0 count=2
+# KERNEL: @=14000 clk=1 rst=0 count=3
+# KERNEL: @=16000 clk=0 rst=0 count=3
+# KERNEL: @=18000 clk=1 rst=0 count=4
+# KERNEL: @=20000 clk=0 rst=0 count=4
+# KERNEL: @=22000 clk=1 rst=0 count=5
