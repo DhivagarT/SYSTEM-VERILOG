@@ -1,0 +1,6 @@
+# KERNEL:  a b | sum carry
+# KERNEL: -------------
+# KERNEL:  0 0 |  0   0
+# KERNEL:  0 1 |  1   0
+# KERNEL:  1 0 |  1   0
+# KERNEL:  1 1 |  0   1
