@@ -1,0 +1,11 @@
+# KERNEL: t=0 clk=0 rst=1 a=x x=x
+# KERNEL: t=2 clk=1 rst=1 a=x x=0
+# KERNEL: t=4 clk=0 rst=1 a=x x=0
+# KERNEL: t=5 clk=0 rst=0 a=x x=0
+# KERNEL: t=6 clk=1 rst=0 a=0 x=x
+# KERNEL: t=8 clk=0 rst=0 a=0 x=x
+# KERNEL: t=10 clk=1 rst=0 a=1 x=0
+# KERNEL: t=12 clk=0 rst=0 a=1 x=0
+# KERNEL: t=14 clk=1 rst=0 a=1 x=1
+# KERNEL: t=16 clk=0 rst=0 a=1 x=1
+# KERNEL: t=18 clk=1 rst=0 a=1 x=1
