@@ -19,7 +19,7 @@ module exp();
   initial begin
     x=new();
     y=new();
-    x=y;
+    x=y;     //KEY WORD
     $display("BEFORE");
     x.display();
     y.display();
@@ -32,6 +32,7 @@ module exp();
 endmodule
 
 // OUTPUT
+// # KERNEL: BEFORE
 // # KERNEL: a=1 B=2
 // # KERNEL: a=1 B=2
 // # KERNEL: AFTER
