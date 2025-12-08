@@ -1,8 +1,8 @@
 //static Methods
 class demo;
-  static string a;
-  static int b;
-  int c;
+  static string a;   //Static Variable
+  static int b;      //Static Variable
+//  int c;           //Non-Static Variable
   
   //Static Method to set Value
   static function void setf1(string val_a,int val_b);
