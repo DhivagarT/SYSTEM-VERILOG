@@ -1,4 +1,5 @@
 //weighted constraint
+//dist-keyword
 class exp;
   rand int a;
   rand int b;
