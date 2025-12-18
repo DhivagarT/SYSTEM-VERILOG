@@ -14,10 +14,14 @@ module exp;
     $display("5 KEYS RETURN TO HOTEL AT 9 DELAY  [%0t]",$time);
   end
   initial begin
-    
+    #2;
     sem.get(7);                                 //initial key=> at 0 delay 5-7 =-2 
     $display("7 KEYS GOT FROM THE HOTEL AT DELAY [%0t]",$time);//after the put at 9 delay 10-7=3
+    #10;
+    sem.put(2);
+    $display("ADDING NEW VALUE  [%0t]",$time);
   end
+  
 endmodule
 
 // OUTPUT
@@ -25,5 +29,6 @@ endmodule
 // 7 KEYS GOT FROM THE HOTEL  [0]
 // 2 KEYS RETURN TO THE HOTEL [4]
 // 5 KEYS RETURN TO HOTEL AT 9 DELAY     [9]
-// 7 KEYS GOT FROM THE HOTEL AT DELAY (  [9]
+// 7 KEYS GOT FROM THE HOTEL AT DELAY   [9]
+// ADDING NEW VALUE  [19]
 
